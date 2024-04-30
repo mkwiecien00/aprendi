@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply relative min-h-full scroll-smooth text-sm font-normal;
+  }
+
+  body {
+    @apply m-0 min-h-screen max-w-full font-sans text-black;
+  }
+
+  ul {
+    @apply m-0 list-none p-0;
+  }
+
+  a {
+    @apply text-white no-underline;
+  }
+}
