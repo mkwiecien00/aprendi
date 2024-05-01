@@ -8,7 +8,7 @@ export const AuthenticationLoginBox = ({ mode }: AuthenticationFormProps) => {
   return (
     <div className="authentication-box mt-10">
       <Logo iconClass="app-logo-icon" titleClass="app-logo-title" />
-      <form className="card-body w-full">
+      <form className="card-body w-full desktop:w-[85%]">
         <h1 className="form-header">{isSignin ? "Sign in" : "Sign up"}</h1>
         <AuthenticationInputBox isSignin={isSignin} />
       </form>

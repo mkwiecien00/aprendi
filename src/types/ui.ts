@@ -21,3 +21,6 @@ export interface LogoProps {
   titleClass: string;
 }
 
+export interface DottedBackgroundProps extends React.HTMLProps<HTMLDivElement> {
+  children: React.ReactNode;
+}

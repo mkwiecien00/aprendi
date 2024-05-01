@@ -5,7 +5,7 @@ export const AuthenticationVisualBox = () => {
   return (
     <div className="authentication-box authentication-visual-box ">
       <ImagePlayer
-        autoplay={false}
+        autoplay={true}
         speed={0.5}
         loop={true}
         src={animatedImg}

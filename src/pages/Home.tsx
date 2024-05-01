@@ -1,9 +1,9 @@
-import { AuroraBackground } from "@components/ui/AuroraBackground";
+import { DottedBackground } from "@components/ui/DottedBackground";
 
 export const HomePage = () => {
   return (
-    <AuroraBackground>
+    <DottedBackground>
       <div>Home</div>
-    </AuroraBackground>
+    </DottedBackground>
   );
 };

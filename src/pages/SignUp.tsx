@@ -1,10 +1,10 @@
-import { AuroraBackground } from "@components/ui/AuroraBackground";
+import { DottedBackground } from "@components/ui/DottedBackground";
 import { AuthenticationForm } from "@components/auth/AuthenticationForm";
 
 export const SignUpPage = () => {
   return (
-    <AuroraBackground>
+    <DottedBackground>
       <AuthenticationForm mode="signup" />
-    </AuroraBackground>
+    </DottedBackground>
   );
 };

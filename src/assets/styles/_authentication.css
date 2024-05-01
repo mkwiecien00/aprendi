@@ -21,7 +21,7 @@
   }
 
   .authentication-visual-box {
-    @apply hidden h-full rounded-2xl bg-grey desktop:flex;
+    @apply hidden h-full rounded-bl-[70px] rounded-br-2xl rounded-tl-2xl rounded-tr-2xl bg-grey desktop:flex;
   }
 
   .authentication-visual-box-header {
@@ -29,10 +29,10 @@
   }
 
   .authentication-visual-box-info {
-    @apply px-10 text-center text-lg
+    @apply px-10 text-center text-lg;
   }
 
   .authentication-form-info {
-    @apply text-black-rgba pt-5 desktop:text-lg
+    @apply pt-5 text-black-rgba desktop:text-lg;
   }
 }
