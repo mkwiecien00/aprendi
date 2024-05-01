@@ -1,0 +1,26 @@
+@layer components {
+  .app-logo-icon {
+    @apply mr-2;
+    height: 55px;
+
+    @media (min-width: 600px) {
+      height: 60px;
+    }
+
+    @media screen(desktop) {
+      height: 70px;
+    }
+  }
+
+  .app-logo-title {
+    height: 35px;
+
+    @media (min-width: 600px) {
+      height: 50px;
+    }
+
+    @media screen(desktop) {
+      height: 55px;
+    }
+  }
+}

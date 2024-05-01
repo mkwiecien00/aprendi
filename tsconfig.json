@@ -24,10 +24,13 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*", "./dist/*", ""],
-      "@assets/*": ["src/assets/*"],
+      "@animations/*": ["src/assets/animations/*"],
+      "@images/*": ["src/assets/images/*"],
+      "@styles/*": ["src/styles/*"],
       "@components/*": ["src/components/*"],
       "@lib/*": ["src/lib/*"],
       "@pages/*": ["src/pages/*"],
+      "@customTypes/*": ["src/types/*"],
       "@utils/*": ["src/utils/*"]
     }
   },

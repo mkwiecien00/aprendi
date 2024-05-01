@@ -8,6 +8,10 @@ export default {
       animation: {
         aurora: "aurora 60s linear infinite",
       },
+      colors: {
+        "black-rgba": "rgba(0, 0, 0, 0.7)",
+        grey: "#F8F8FF",
+      },
       keyframes: {
         aurora: {
           from: {
@@ -18,7 +22,25 @@ export default {
           },
         },
       },
+      screens: {
+        tablet: "800px",
+        desktop: "1100px",
+      },
+      spacing: {
+        desktop: "450px",
+      },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [addVariablesForColors, require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#2f89ff",
+          neutral: "#F8F8FF",
+          secondary: "#273239",
+        },
+      },
+    ],
+  },
 };

@@ -1,0 +1,38 @@
+@layer components {
+  .authentication-container {
+    @apply flex items-center justify-center rounded-3xl bg-white p-7 text-black desktop:justify-between;
+    height: 550px;
+    width: 85%;
+    max-width: 350px;
+    box-shadow: 0px 25px 30px -10px rgba(0, 0, 0, 0.3);
+
+    @media (min-width: 600px) {
+      height: 600px;
+      max-width: 400px;
+    }
+
+    @media screen(desktop) {
+      max-width: 1000px;
+    }
+  }
+
+  .authentication-box {
+    @apply flex w-full flex-col items-center justify-center desktop:w-desktop;
+  }
+
+  .authentication-visual-box {
+    @apply hidden h-full rounded-2xl bg-grey desktop:flex;
+  }
+
+  .authentication-visual-box-header {
+    @apply mb-2 mt-5 text-2xl font-bold;
+  }
+
+  .authentication-visual-box-info {
+    @apply px-10 text-center text-lg
+  }
+
+  .authentication-form-info {
+    @apply text-black-rgba pt-5 desktop:text-lg
+  }
+}

@@ -3,6 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 
 import { RootLayout } from "@pages/Root";
 import { HomePage } from "@pages/Home";
+import { SignInPage } from "@pages/SignIn";
+import { SignUpPage } from "@pages/SignUp";
 
 export const router = createBrowserRouter([
   {
@@ -11,8 +13,8 @@ export const router = createBrowserRouter([
     // errorElement: <ErrorPage/>,
     children: [
       { index: true, element: <HomePage /> },
-      //   { path: "signin", element: <SignInPage /> },
-      //   { path: "signup", element: <SignUpPage /> },
+      { path: "signin", element: <SignInPage /> },
+      { path: "signup", element: <SignUpPage /> },
       {
         // element: <ProtectedRoutes/>,
         // children: [

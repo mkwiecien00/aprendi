@@ -1,0 +1,21 @@
+@layer components {
+  .form-header {
+    @apply mb-5  mt-5 text-3xl font-bold tablet:mt-7;
+  }
+
+  .form-input {
+    @apply input input-bordered flex items-center gap-2;
+  }
+
+  .form-input-container {
+    @apply flex flex-col gap-3;
+  }
+
+  .form-btn-container {
+    @apply form-control mt-2 tablet:mt-5;
+  }
+
+  .form-btn {
+    @apply btn text-base text-white;
+  }
+}
