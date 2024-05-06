@@ -1,0 +1,9 @@
+@layer components {
+  .heading {
+    @apply px-2 text-center text-5xl font-bold tablet:px-6 tablet:text-7xl dark:text-white;
+  }
+
+  .heading-gradient {
+    @apply bg-gradient-to-b from-blue-200 to-blue-600 bg-clip-text text-transparent;
+  }
+}

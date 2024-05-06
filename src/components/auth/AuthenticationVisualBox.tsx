@@ -15,7 +15,7 @@ export const AuthenticationVisualBox = () => {
         Unleash your potential
       </h3>
       <p className="authentication-visual-box-info">
-        Learn effortlessly, plan with ease, and stay organized{" "}
+        Learn effortlessly, improve your skills, and stay focused{" "}
         <span className="font-bold">with Aprendi</span>
       </p>
     </div>
