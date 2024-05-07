@@ -23,4 +23,22 @@
       height: 55px;
     }
   }
+
+  .app-logo-icon-nav {
+    @apply mx-2;
+    height: 30px;
+
+    @media (min-width: 600px) {
+      height: 35px;
+    }
+  }
+
+  .app-logo-title-nav {
+    @apply mr-2;
+    height: 25px;
+
+    @media (min-width: 600px) {
+      height: 30px;
+    }
+  }
 }

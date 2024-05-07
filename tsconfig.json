@@ -28,6 +28,7 @@
       "@images/*": ["src/assets/images/*"],
       "@styles/*": ["src/styles/*"],
       "@components/*": ["src/components/*"],
+      "@data/*": ["src/data/*"],
       "@lib/*": ["src/lib/*"],
       "@pages/*": ["src/pages/*"],
       "@customTypes/*": ["src/types/*"],
